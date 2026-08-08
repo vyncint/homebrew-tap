@@ -2,11 +2,11 @@
 cask "openshell-driver-applecontainer" do
   depends_on arch: :arm64
 
-  version "0.2.8"
+  version "0.2.9"
 
   on_macos do
     on_arm do
-      sha256 "55d74addffda20c4abda9e01d3d80c3263c78084090e8943d6151506db3e4a27"
+      sha256 "5137f3775ecac2cab8d3e2e22ca9015e73477834efb272b3f0b7fee395e55232"
       url "https://github.com/vyncint/openshell-driver-applecontainer/releases/download/v#{version}/openshell-driver-applecontainer_#{version}_darwin_arm64.tar.gz"
     end
   end
@@ -55,7 +55,8 @@ cask "openshell-driver-applecontainer" do
 
       openshell-driver-applecontainer setup
 
-    Re-run `setup` after every `brew upgrade` too: it restarts the launchd
-    service onto the new binary.
+    Run it after every upgrade as well. Homebrew removes a cask's launchd
+    service when it replaces the old version, so until `setup` runs again
+    the driver is installed but not running.
   EOS
 end
