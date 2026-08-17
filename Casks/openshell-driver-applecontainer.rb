@@ -2,11 +2,11 @@
 cask "openshell-driver-applecontainer" do
   depends_on arch: :arm64
 
-  version "0.2.10"
+  version "0.2.11"
 
   on_macos do
     on_arm do
-      sha256 "49fd5272f624e22a1a1db455479a30f3cc07bad644c29c5e5d4a40d16f05dcb3"
+      sha256 "ffcf0a5a05fe85dfed5f03e8e90c9cd056aa5c6920443f24439556757d7713bc"
       url "https://github.com/vyncint/openshell-driver-applecontainer/releases/download/v#{version}/openshell-driver-applecontainer_#{version}_darwin_arm64.tar.gz"
     end
   end
