@@ -34,15 +34,15 @@ class Mossaic < Formula
   def install
     bin.install "mossaic", "mossaic-art", "mossaic-glyphs"
     doc.install "README.md", "CHANGELOG.md"
-    # The templates are compiled into the binary; this copy is what somebody
-    # starts from when drawing their own.
+    # The templates are compiled into the binary; this copy is what
+    # somebody starts from when drawing their own.
     pkgshare.install "templates"
   end
 
   test do
     assert_match version.to_s, shell_output("#{bin}/mossaic-art --version")
-    # The built-in catalogue survived packaging, which is the one thing about
-    # this binary that a plain --version cannot show.
+    # The built-in catalogue survived packaging, which is the one thing
+    # about this binary that a plain --version cannot show.
     assert_match "dragon", shell_output("#{bin}/mossaic-art --list-templates")
     # And it draws: no account, no network, no terminal.
     assert_match "2027", shell_output("#{bin}/mossaic-art --template dragon --year 2027 --no-color --plan /dev/null")
