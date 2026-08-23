@@ -3,8 +3,11 @@
 class Mossaic < Formula
   desc "GitHub's contribution chart in your terminal, and a planner for contribution art"
   homepage "https://github.com/vyncint/mossaic"
-  version "0.6.2"
   license any_of: ["MIT", "Apache-2.0"]
+
+  livecheck do
+    skip "Auto-generated on release."
+  end
 
   on_macos do
     on_arm do
@@ -26,10 +29,6 @@ class Mossaic < Formula
       url "https://github.com/vyncint/mossaic/releases/download/v0.6.2/mossaic-0.6.2-x86_64-unknown-linux-musl.tar.gz"
       sha256 "feab1fc78b01eb842ce71d4a30ec1055521d85b24b46b8c9aa9c64ef96bb7efd"
     end
-  end
-
-  livecheck do
-    skip "Auto-generated on release."
   end
 
   def install
