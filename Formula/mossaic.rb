@@ -11,23 +11,23 @@ class Mossaic < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/vyncint/mossaic/releases/download/v0.8.0/mossaic-0.8.0-aarch64-apple-darwin.tar.gz"
-      sha256 "ca7c0ef8c93a22ce6f34f47f3384dc8b52187a2ffe4160cffcdf841522630e46"
+      url "https://github.com/vyncint/mossaic/releases/download/v0.8.1/mossaic-0.8.1-aarch64-apple-darwin.tar.gz"
+      sha256 "50189f2061dbfb2c3f53c5744bb8166c7b5b9c30c451629a0a7c70c45d63b0c6"
     end
     on_intel do
-      url "https://github.com/vyncint/mossaic/releases/download/v0.8.0/mossaic-0.8.0-x86_64-apple-darwin.tar.gz"
-      sha256 "f234de74e1d5a5c5873814bc4092cff240d811b0bcfa4578402556751de1dd75"
+      url "https://github.com/vyncint/mossaic/releases/download/v0.8.1/mossaic-0.8.1-x86_64-apple-darwin.tar.gz"
+      sha256 "f5d449fad2796a724774fcf9e449541e277cfd98d438a33c7c01415ac2a9dddf"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/vyncint/mossaic/releases/download/v0.8.0/mossaic-0.8.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "e3eef28aeda0cb0aa9a715a9499299fead2d81f4292deafdae5785cf18df34ec"
+      url "https://github.com/vyncint/mossaic/releases/download/v0.8.1/mossaic-0.8.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "448cda9c839442d130ce078a4c35f476b58ca65c8a195b257b6379e02a0588ab"
     end
     on_intel do
-      url "https://github.com/vyncint/mossaic/releases/download/v0.8.0/mossaic-0.8.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "cd5270c9039028cfa84851d3f51ccda0edd72dde4f6cce0cb00319969d7aa736"
+      url "https://github.com/vyncint/mossaic/releases/download/v0.8.1/mossaic-0.8.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "da82e6c3f49408c2428b02fe63a9a0cf9f840a33dd018befbbe22af505b6c451"
     end
   end
 
