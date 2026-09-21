@@ -11,23 +11,23 @@ class Oxidelake < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/vyncint/oxidelake/releases/download/v0.1.3/oxidelake-0.1.3-aarch64-apple-darwin.tar.gz"
-      sha256 "58b851e8270607e365aba699f857a24bde79cc07082590b87d341e95b13efef5"
+      url "https://github.com/vyncint/oxidelake/releases/download/v0.1.4/oxidelake-0.1.4-aarch64-apple-darwin.tar.gz"
+      sha256 "557f501b08ae22229d5d2b2dc341ee0c093150e97485db85b216d9d9985b2d19"
     end
     on_intel do
-      url "https://github.com/vyncint/oxidelake/releases/download/v0.1.3/oxidelake-0.1.3-x86_64-apple-darwin.tar.gz"
-      sha256 "17ccbbbc23b32cf9d88596ed6fd13c660e539335e7353049eae69c058c7f122b"
+      url "https://github.com/vyncint/oxidelake/releases/download/v0.1.4/oxidelake-0.1.4-x86_64-apple-darwin.tar.gz"
+      sha256 "87bf87a3afdba0403377ce376fcd5b8d81e80e4ddfd69cd29ec5146f9e8797b0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/vyncint/oxidelake/releases/download/v0.1.3/oxidelake-0.1.3-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "f9e3301d61237e1726451bf46a143d2d9ad301b05fb63c66351ecb2ffc6fa574"
+      url "https://github.com/vyncint/oxidelake/releases/download/v0.1.4/oxidelake-0.1.4-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "1842c99604e9fc935361063545960609eac46a1caff95e56e1337b93e3b3a206"
     end
     on_intel do
-      url "https://github.com/vyncint/oxidelake/releases/download/v0.1.3/oxidelake-0.1.3-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "3771cd7eb0ef8574be55ecd741636b2096046e185919ad576f5f5a9e15425e96"
+      url "https://github.com/vyncint/oxidelake/releases/download/v0.1.4/oxidelake-0.1.4-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "2046addbf57dd6370a486ef026497edf98a2b56b94a1f1d91b8d58278f65ee1b"
     end
   end
 
